@@ -1,0 +1,59 @@
+/* --- Profile page --- */
+
+/* pp statistic */
+.profile-detail__top-left-item > .value-display--pp {
+    display: none !important;
+}
+
+/* Collapsed detail bar */
+.profile-detail-bar__entry > .value-display {
+    display: none !important;
+}
+
+/* Ranking graph */
+.profile-detail__row--top + .profile-detail__row:nth-child(2) {
+    display: none !important;
+}
+
+/* Performances */
+.play-detail__group--bottom > .play-detail__score-detail--score {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.play-detail__weighted-pp, .play-detail__pp-weight, .play-detail__pp {
+    display: none !important;
+}
+
+/* --- Ranking page --- */
+
+/* Performance column */
+th.ranking-page-table__heading--focused:nth-child(5):not(:last-child) {
+    display: none !important;
+}
+
+td.ranking-page-table__column--focused:nth-child(5):not(:last-child) {
+    display: none !important;
+}
+
+/* --- Beatmapset page --- */
+
+/* Leaderboard */
+th.beatmap-scoreboard-table__header--pp {
+    display: none !important;
+}
+
+td.beatmap-scoreboard-table__cell:nth-child(12) {
+    display: none !important;
+}
+
+/* Top score card */
+.beatmap-score-top__stat:nth-child(5) {
+    display: none !important;
+}
+
+/* --- Score page --- */
+
+/* pp statistic */
+.score-stats__stat:nth-child(3):last-child {
+    display: none !important;
+}

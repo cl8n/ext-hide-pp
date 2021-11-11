@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Hide PP",
+    "author": "clayton",
+    "description": "Hide PP and rank values across most of the osu! website",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["*://osu.ppy.sh/*"],
+            "css": ["index.css"]
+        }
+    ]
+}
